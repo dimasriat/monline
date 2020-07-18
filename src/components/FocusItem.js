@@ -5,7 +5,7 @@ export default function FocusItem(props) {
 		return (
 			<div className="container">
 				<img src={props.asset} />
-				<style jsx>{`
+				{/* <style jsx>{`
 					.container {
 						background-color: white;
 						border: 1px solid black;
@@ -15,7 +15,7 @@ export default function FocusItem(props) {
 					img {
 						border: 1px solid black;
 					}
-				`}</style>
+				`}</style> */}
 			</div>
 		);
 	}
@@ -26,6 +26,7 @@ export default function FocusItem(props) {
 				<style jsx>{`
 					button {
 						margin-top: 1rem;
+						padding: 0.5rem;
 					}
 				`}</style>
 			</button>
@@ -38,6 +39,20 @@ export default function FocusItem(props) {
 				{props.asset}
 				<style jsx>{`
 					.container {
+						${style}
+					}
+				`}</style>
+			</div>
+		);
+	}
+	
+	if (props.type === "link") {
+		const style = props.style ? props.style : "";
+		return (
+			<div className="container">
+				<a href={`http://${props.asset}/`}>{props.asset}</a>
+				<style jsx>{`
+					.container a {
 						${style}
 					}
 				`}</style>

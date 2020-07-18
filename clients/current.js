@@ -1,4 +1,4 @@
-import StoryObject from "./sample";
+import StoryObject from "./pingfest";
 
 console.log(JSON.stringify(StoryObject, null, 2));
 

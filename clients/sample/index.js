@@ -7,6 +7,7 @@ import ciwiciwi from "./ciwiciwi.jpeg";
 import cloud from "./cloud.jpg";
 import bunga from "./ciwi.jpeg";
 import cowociwi from "./cowociwi.jpeg";
+import bbg from "./bg.png";
 
 const StoryObject = objectFromStory(`
 
@@ -46,6 +47,7 @@ FOCUS
 72-3600 __ text __ mengucapkan.online __ font-size: 2rem; font-weight: bold;
 
 BACKGROUND
+1-3 __ ${bbg}
 9-27 __ ${kota} __ background-size: cover;
 27-30 __ . __ background-color: black;
 30-3600 __ ${cloud} __ animation: bg1 24s linear infinite;
