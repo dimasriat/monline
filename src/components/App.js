@@ -43,7 +43,7 @@ function Menu({ title, setStart, sources, description }) {
 					padding: 0 0.5rem;
 				}
 				.title {
-					font-size: 2rem;
+					font-size: 1.5rem;
 					margin: 1.5rem 0;
 				}
 			`}</style>
@@ -67,7 +67,7 @@ export default function App(props) {
 		<GlobalStyle>
 			{!start ? (
 				<Menu
-					title="https://pingfest.mengucapkan.online/"
+					title="ROKET PINGFEST"
 					description="collab dimas x bunga"
 					setStart={setStart}
 					sources={sources}
