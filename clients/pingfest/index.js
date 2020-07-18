@@ -43,7 +43,7 @@ BACKGROUND
 12-3600 __ ${night} __ background-size: cover; animation: bg0 30s;
 
 MUSIC
-6-3600 __ ${mp3}
+7-3600 __ ${mp3}
 
 `);
 export default StoryObject;
